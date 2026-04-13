@@ -1,6 +1,7 @@
 // use binary search to solve this problem
 #include <iostream>
 #include <vector>
+using namespace std;
 class Solution {
 public:    int search(vector<int>& nums, int target) {
         int left = 0, right = nums.size() - 1;
