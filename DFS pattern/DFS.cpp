@@ -29,7 +29,7 @@ int main(){
     for(int i=0; i<m; i++){
         int v1, v2;
         cin >> v1 >> v2;
-
+         //edge between v1 and v2 
         graph[v1].push_back(v2);
         graph[v2].push_back(v1);
     }
