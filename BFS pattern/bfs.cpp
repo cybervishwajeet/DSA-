@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// basic code of bfs traversal technique to traverse graph and tree DS
 int main() {
     int n, m;
     cin >> n >> m;
